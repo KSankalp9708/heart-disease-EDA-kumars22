@@ -13,15 +13,15 @@
 - *Violin Plots* (by HeartDisease): Sex vs HeartDisease, Age vs HeartDisease, Cholesterol vs HeartDisease
 - *Correlation*: Compute corr matrix for Age, RestingBP, Cholesterol, FastingBS, MaxHR, Oldpeak, HeartDisease; visualize with sns.heatmap
 - *Pairplots*:
--- ['Age','HeartDisease']
--- ['Age','RestingBP','HeartDisease'] (with hue='HeartDisease'
--- ['Age','Cholesterol','FastingBS','HeartDisease'] (with hue)
--- ['Age','MaxHR','Oldpeak','HeartDisease']
--- Full numeric dataframe
+--'Age','HeartDisease'
+--'Age','RestingBP','HeartDisease' (with hue='HeartDisease')
+--'Age','Cholesterol','FastingBS','HeartDisease' (with hue)
+--'Age','MaxHR','Oldpeak','HeartDisease'
+--Full numeric dataframe
 - *Jointplots*:
--- [Age–MaxHR] (hexbin)
--- [Age–Cholesterol] (scatter)
--- [RestingBP–MaxHR] (hexbin)
+--Age–MaxHR (hexbin)
+--Age–Cholesterol (scatter)
+-- RestingBP–MaxHR (hexbin)
 
 
 # Results / Conclusion
