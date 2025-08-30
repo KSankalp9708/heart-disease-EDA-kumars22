@@ -8,10 +8,10 @@
 ## Approach
 - *Data & Libraries*: pandas, numpy, seaborn
 - *Load & Preview*: Read heart.csv, inspect top rows
-- *Categorical Analysis* (pie charts): Sex, ChestPainType, RestingECG, ST_Slope, HeartDisease
+- *Categorical Analysis* (pie charts): Gender, ChestPain type, RestingECG type, ST slope type, HeartDisease
 - *Distributions* (seaborn displot + KDE): Age, RestingBP, Cholesterol, MaxHR
-- *Violin Plots* (by HeartDisease): Sex vs HeartDisease, Age vs HeartDisease, Cholesterol vs HeartDisease
-- *Correlation*: Compute corr matrix for Age, RestingBP, Cholesterol, FastingBS, MaxHR, Oldpeak, HeartDisease; visualize with sns.heatmap
+- *Violin Plots* (by HeartDisease): Age, Sex vs HeartDisease, Age vs HeartDisease, Cholesterol vs HeartDisease
+- *Correlation* & *Heatmap*: Compute correlation matrix for Age, RestingBP, Cholesterol, FastingBS, MaxHR, Oldpeak, HeartDisease; visualize with sns.heatmap
 - *Pairplots*:
   - 'Age' vs 'HeartDisease'
   - 'Age'vs 'RestingBP' vs 'HeartDisease' (with hue = 'HeartDisease')
@@ -22,7 +22,6 @@
   - Age vs MaxHR (hexbin)
   - Age vs Cholesterol (scatter)
   - RestingBP vs MaxHR (hexbin)
-
 
 ## Results / Insights
 
